@@ -1,0 +1,39 @@
+# === Python cache ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Virtual environments ===
+.venv/
+env/
+venv/
+
+# === CSV and report output ===
+*.csv
+*.xlsx
+*.pdf
+
+# === Log files ===
+*.log
+
+# === System files ===
+.DS_Store
+Thumbs.db
+
+# === VS Code settings (optional) ===
+.vscode/
+
+# === macOS specific ===
+*.swp
+.AppleDouble
+.LSOverride
+
+# === Windows specific ===
+ehthumbs.db
+Desktop.ini
+
+# === Jupyter Notebook checkpoints ===
+.ipynb_checkpoints
+
+# === Render / deploy config (if temp) ===
+render.yaml
