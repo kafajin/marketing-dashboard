@@ -2,6 +2,7 @@ import dash
 from dash import dcc, html
 import pandas as pd
 import plotly.express as px
+import os
 
 # === MOCK DATA ===
 data = {
@@ -39,7 +40,7 @@ app.layout = html.Div([
     ])
 ])
 
+# === MUST BE EXACTLY LIKE THIS ===
 if __name__ == "__main__":
-    import os
     port = int(os.environ.get("PORT", 8050))
     app.run(host="0.0.0.0", port=port, debug=False)
